@@ -1,0 +1,19 @@
+import math
+a=int(input("Input opposite angle: "))
+b=int(input("Input adjacent angle: "))
+c=int(input("Input hypotenuse: "))
+d=a*math.pi/180
+e=b*math.pi/180
+f=c*math.pi/180
+sin=d/f
+cos=e/f
+tan=d/e
+cot=1/tan
+sec=1/cos
+cosec=1/sin
+print("sin=",sin)
+print("cos=",cos)
+print("tan=",tan)
+print("cot=",cot)
+print("sec=",sec)
+print("cosec=",cosec)

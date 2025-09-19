@@ -1,0 +1,7 @@
+a=int(input("Input Principle: "))
+b=int(input("Input Rate of interest: "))
+c=int(input("Input time in years: "))
+simple_interest=(a*b*c/100)
+Total_amount=(a+simple_interest)
+print(simple_interest)
+print(Total_amount)
